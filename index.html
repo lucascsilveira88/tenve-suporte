@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Suporte — Tenvê</title>
+<meta name="description" content="Central de suporte do aplicativo Tenvê, ferramenta profissional de vistoria veicular.">
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1d1b; --muted: #5b625e;
+    --line: #e3e7e4; --accent: #17703c; --card: #f6f8f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101312; --fg: #e8ece9; --muted: #a3aca7;
+      --line: #262c29; --accent: #4ea86f; --card: #171b19;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 32px; }
+  .brand { font-weight: 700; letter-spacing: .12em; color: var(--accent); font-size: 14px; text-transform: uppercase; }
+  h1 { font-size: 30px; line-height: 1.25; margin: 10px 0 6px; }
+  .sub { color: var(--muted); margin: 0; }
+  h2 { font-size: 19px; margin: 36px 0 10px; }
+  p, li { color: var(--fg); }
+  .muted { color: var(--muted); }
+  .card {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 18px 20px; margin: 18px 0;
+  }
+  .card a { color: var(--accent); font-weight: 600; text-decoration: none; word-break: break-word; }
+  .card a:hover { text-decoration: underline; }
+  dl { margin: 0; }
+  dt { font-weight: 600; margin-top: 18px; }
+  dd { margin: 6px 0 0; color: var(--muted); }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">Tenvê</div>
+    <h1>Central de Suporte</h1>
+    <p class="sub">Ajuda para o aplicativo de vistoria veicular Tenvê.</p>
+  </header>
+
+  <h2>Fale com a gente</h2>
+  <div class="card">
+    <p style="margin:0 0 8px"><strong>E-mail de suporte</strong></p>
+    <p style="margin:0"><a href="mailto:suporte@tenve.com.br">suporte@tenve.com.br</a></p>
+    <p class="muted" style="margin:12px 0 0; font-size:14px">
+      Atendimento de segunda a sexta, das 9h às 18h (horário de Brasília).
+      Respondemos em até um dia útil.
+    </p>
+  </div>
+
+  <h2>Como obter acesso</h2>
+  <p>
+    O Tenvê é um aplicativo de uso profissional. O acesso é fornecido pela franquia
+    ou pela empresa responsável pela operação de vistoria. Se você é vistoriador e
+    ainda não tem login, procure o administrador da sua unidade. Se a sua empresa
+    deseja utilizar o Tenvê, escreva para o e-mail acima.
+  </p>
+
+  <h2>Dúvidas frequentes</h2>
+  <dl>
+    <dt>Esqueci minha senha. O que faço?</dt>
+    <dd>Na tela de login, toque em “Esqueci minha senha” e siga as instruções enviadas ao seu e-mail cadastrado.</dd>
+
+    <dt>O aplicativo funciona sem internet?</dt>
+    <dd>Sim. A vistoria pode ser realizada offline. As fotos e os dados ficam salvos no aparelho e são transmitidos automaticamente quando a conexão retorna.</dd>
+
+    <dt>Por que a tela gira ao fotografar?</dt>
+    <dd>A captura de fotos é feita em modo paisagem, porque as imagens do laudo são sempre horizontais. É o comportamento esperado.</dd>
+
+    <dt>Quais permissões o aplicativo utiliza?</dt>
+    <dd>Câmera, para fotografar o veículo, e localização, para registrar onde a vistoria foi realizada. A localização é opcional e pode ser recusada.</dd>
+
+    <dt>Como recarregar créditos?</dt>
+    <dd>Administradores de franquia recarregam pelo menu Financeiro, dentro do aplicativo, com pagamento via PIX.</dd>
+
+    <dt>Quero excluir minha conta.</dt>
+    <dd>Envie a solicitação para <a href="mailto:suporte@tenve.com.br">suporte@tenve.com.br</a> a partir do e-mail cadastrado. A exclusão é processada em até 30 dias.</dd>
+  </dl>
+
+  <footer>
+    <p>
+      <a href="https://privacidade.tenve.com.br">Política de Privacidade</a>
+    </p>
+    <p>© Tenvê. Todos os direitos reservados.</p>
+  </footer>
+</div>
+</body>
+</html>
